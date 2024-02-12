@@ -1,0 +1,1046 @@
+{
+    "quizes": [
+        {
+            "questions": [
+                {
+                  "question": "What was the main cause of World War I?",
+                  "options": {
+                    "A": "Assassination of Archduke Franz Ferdinand",
+                    "B": "The invasion of Poland",
+                    "C": "The fall of the Berlin Wall",
+                    "D": "The American Civil War"
+                  },
+                  "correctAnswer": "A"
+                },
+                {
+                  "question": "Who was the first President of the United States?",
+                  "options": {
+                    "A": "Abraham Lincoln",
+                    "B": "George Washington",
+                    "C": "Thomas Jefferson",
+                    "D": "Benjamin Franklin"
+                  },
+                  "correctAnswer": "B"
+                },
+                {
+                  "question": "In which year did the Roman Empire fall?",
+                  "options": {
+                    "A": "476 AD",
+                    "B": "1066 AD",
+                    "C": "1492 AD",
+                    "D": "1789 AD"
+                  },
+                  "correctAnswer": "A"
+                },
+                {
+                  "question": "What was the primary purpose of the Silk Road?",
+                  "options": {
+                    "A": "Military conquests",
+                    "B": "Religious pilgrimages",
+                    "C": "Trade routes between Europe and Asia",
+                    "D": "Scientific exploration"
+                  },
+                  "correctAnswer": "C"
+                },
+                {
+                  "question": "Who wrote the Declaration of Independence?",
+                  "options": {
+                    "A": "George Washington",
+                    "B": "Alexander Hamilton",
+                    "C": "Benjamin Franklin",
+                    "D": "Thomas Jefferson"
+                  },
+                  "correctAnswer": "D"
+                },
+                {
+                  "question": "The Battle of Hastings in 1066 was fought in which country?",
+                  "options": {
+                    "A": "France",
+                    "B": "England",
+                    "C": "Germany",
+                    "D": "Spain"
+                  },
+                  "correctAnswer": "B"
+                },
+                {
+                  "question": "Who was the Egyptian queen famous for her beauty and her relationships with Julius Caesar and Mark Antony?",
+                  "options": {
+                    "A": "Nefertiti",
+                    "B": "Cleopatra",
+                    "C": "Hatshepsut",
+                    "D": "Merneith"
+                  },
+                  "correctAnswer": "B"
+                },
+                {
+                  "question": "The Renaissance began in which country in the 14th century?",
+                  "options": {
+                    "A": "France",
+                    "B": "England",
+                    "C": "Germany",
+                    "D": "Italy"
+                  },
+                  "correctAnswer": "D"
+                },
+                {
+                  "question": "What was the main reason for the construction of the Great Wall of China?",
+                  "options": {
+                    "A": "To prevent invasions from northern tribes",
+                    "B": "As a symbol of imperial power",
+                    "C": "To control immigration and emigration",
+                    "D": "For aesthetic purposes"
+                  },
+                  "correctAnswer": "A"
+                }
+              ]
+        },
+        {
+            "questions": [
+              {
+                "question": "Who was the Russian leader at the time of the October Revolution in 1917?",
+                "options": {
+                  "A": "Nicholas II",
+                  "B": "Vladimir Lenin",
+                  "C": "Joseph Stalin",
+                  "D": "Leon Trotsky"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "The Magna Carta was signed in which year?",
+                "options": {
+                  "A": "1066",
+                  "B": "1215",
+                  "C": "1415",
+                  "D": "1776"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "Who was known as the 'Sun King' in French history?",
+                "options": {
+                  "A": "Louis XIV",
+                  "B": "Napoleon Bonaparte",
+                  "C": "Charles de Gaulle",
+                  "D": "François Hollande"
+                },
+                "correctAnswer": "A"
+              },
+              {
+                "question": "The ancient city of Troy was located in which modern-day country?",
+                "options": {
+                  "A": "Greece",
+                  "B": "Italy",
+                  "C": "Turkey",
+                  "D": "Egypt"
+                },
+                "correctAnswer": "C"
+              },
+              {
+                "question": "The Black Death killed approximately what fraction of Europe's population in the 14th century?",
+                "options": {
+                  "A": "One tenth",
+                  "B": "One third",
+                  "C": "Half",
+                  "D": "Two thirds"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "Who discovered the Americas in 1492?",
+                "options": {
+                  "A": "Christopher Columbus",
+                  "B": "Marco Polo",
+                  "C": "Leif Erikson",
+                  "D": "Ferdinand Magellan"
+                },
+                "correctAnswer": "A"
+              },
+              {
+                "question": "What was the main cause of the French Revolution?",
+                "options": {
+                  "A": "The American Revolution",
+                  "B": "Financial crisis and inequality",
+                  "C": "The rise of Napoleon",
+                  "D": "The Enlightenment"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "In which year did the Berlin Wall fall, leading to the eventual reunification of Germany?",
+                "options": {
+                  "A": "1961",
+                  "B": "1979",
+                  "C": "1989",
+                  "D": "1991"
+                },
+                "correctAnswer": "C"
+              },
+              {
+                "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+                "options": {
+                  "A": "Bessie Coleman",
+                  "B": "Amelia Earhart",
+                  "C": "Harriet Quimby",
+                  "D": "Jacqueline Cochran"
+                },
+                "correctAnswer": "B"
+              }
+            ]
+          }
+          ,
+          {
+            "questions": [
+              {
+                "question": "The Treaty of Versailles was signed after which major event?",
+                "options": {
+                  "A": "World War I",
+                  "B": "World War II",
+                  "C": "The Napoleonic Wars",
+                  "D": "The Korean War"
+                },
+                "correctAnswer": "A"
+              },
+              {
+                "question": "Who was the leader of the Soviet Union during the Cuban Missile Crisis?",
+                "options": {
+                  "A": "Joseph Stalin",
+                  "B": "Nikita Khrushchev",
+                  "C": "Leonid Brezhnev",
+                  "D": "Mikhail Gorbachev"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "The ancient city of Petra is located in which modern-day country?",
+                "options": {
+                  "A": "Egypt",
+                  "B": "Jordan",
+                  "C": "Syria",
+                  "D": "Iraq"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "What was the primary reason for the construction of the Panama Canal?",
+                "options": {
+                  "A": "To facilitate trade between the Atlantic and Pacific Oceans",
+                  "B": "For military strategic purposes",
+                  "C": "To promote tourism in Central America",
+                  "D": "To control the spread of diseases"
+                },
+                "correctAnswer": "A"
+              },
+              {
+                "question": "Who was the British monarch during the American Revolution?",
+                "options": {
+                  "A": "Queen Victoria",
+                  "B": "King George III",
+                  "C": "King Henry VIII",
+                  "D": "Queen Elizabeth I"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "The Battle of Midway was a turning point in which conflict?",
+                "options": {
+                  "A": "World War I",
+                  "B": "World War II",
+                  "C": "The Korean War",
+                  "D": "The Vietnam War"
+                },
+                "correctAnswer": "B"
+              },
+              {
+                "question": "Who was known as the 'Maid of Orléans' and a heroine of France for her role during the Lancastrian phase of the Hundred Years' War?",
+                "options": {
+                  "A": "Catherine de' Medici",
+                  "B": "Marie Antoinette",
+                  "C": "Joan of Arc",
+                  "D": "Eleanor of Aquitaine"
+                },
+                "correctAnswer": "C"
+              },
+              {
+                "question": "The Gutenberg Bible was the first major book printed using what kind of technology?",
+                "options": {
+                  "A": "Typewriter",
+                  "B": "Handwriting",
+                  "C": "Block printing",
+                  "D": "Movable type printing press"
+                },
+                "correctAnswer": "D"
+              },
+              {
+                "question": "The Spanish Armada attempted to invade which country in 1588?",
+                "options": {
+                  "A": "France",
+                  "B": "England",
+                  "C": "Portugal",
+                  "D": "The Netherlands"
+                },
+                "correctAnswer": "B"
+              }
+            ]
+          }
+,{
+    "questions": [
+      {
+        "question": "Who was the first female Prime Minister of the United Kingdom?",
+        "options": {
+          "A": "Margaret Thatcher",
+          "B": "Theresa May",
+          "C": "Indira Gandhi",
+          "D": "Angela Merkel"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "In which century did the Industrial Revolution begin?",
+        "options": {
+          "A": "16th Century",
+          "B": "17th Century",
+          "C": "18th Century",
+          "D": "19th Century"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The Treaty of Tordesillas, signed in 1494, divided the newly discovered lands outside Europe between which two countries?",
+        "options": {
+          "A": "England and France",
+          "B": "Spain and Portugal",
+          "C": "Germany and Italy",
+          "D": "Netherlands and Belgium"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first human to journey into outer space?",
+        "options": {
+          "A": "Neil Armstrong",
+          "B": "Yuri Gagarin",
+          "C": "Buzz Aldrin",
+          "D": "John Glenn"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The Battle of Gettysburg was a turning point in which war?",
+        "options": {
+          "A": "The American Revolutionary War",
+          "B": "The War of 1812",
+          "C": "The American Civil War",
+          "D": "World War I"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who was the longest-reigning British monarch before Queen Elizabeth II surpassed them in 2015?",
+        "options": {
+          "A": "Queen Victoria",
+          "B": "King George III",
+          "C": "King Henry VIII",
+          "D": "Queen Elizabeth I"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "The ancient Library of Alexandria was located in which country?",
+        "options": {
+          "A": "Greece",
+          "B": "Italy",
+          "C": "Egypt",
+          "D": "Turkey"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who was the first emperor of Rome?",
+        "options": {
+          "A": "Julius Caesar",
+          "B": "Augustus Caesar",
+          "C": "Nero",
+          "D": "Caligula"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Scramble for Africa' refers to the colonization of African territories by which continent's countries?",
+        "options": {
+          "A": "Asian",
+          "B": "European",
+          "C": "North American",
+          "D": "South American"
+        },
+        "correctAnswer": "B"
+      }
+    ]
+  }
+,
+{
+    "questions": [
+      {
+        "question": "The Rosetta Stone was key in deciphering which ancient script?",
+        "options": {
+          "A": "Latin",
+          "B": "Egyptian hieroglyphs",
+          "C": "Cuneiform",
+          "D": "Sanskrit"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first female ruler of ancient Egypt?",
+        "options": {
+          "A": "Nefertiti",
+          "B": "Cleopatra",
+          "C": "Hatshepsut",
+          "D": "Merneith"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The Battle of Waterloo in 1815 ended the military career of which famous leader?",
+        "options": {
+          "A": "Julius Caesar",
+          "B": "Genghis Khan",
+          "C": "Napoleon Bonaparte",
+          "D": "Alexander the Great"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The Magna Carta, signed in 1215, is considered one of the foundational documents for which system of governance?",
+        "options": {
+          "A": "Absolute monarchy",
+          "B": "Constitutional monarchy",
+          "C": "Direct democracy",
+          "D": "Theocracy"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Which civilization is known for creating the first known democracy?",
+        "options": {
+          "A": "Roman Empire",
+          "B": "Ancient Egypt",
+          "C": "Ancient Greece",
+          "D": "Ancient China"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The term 'Renaissance' is derived from a French word meaning what?",
+        "options": {
+          "A": "Enlightenment",
+          "B": "Rebirth",
+          "C": "Revolution",
+          "D": "Restoration"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first human to set foot on the moon?",
+        "options": {
+          "A": "Yuri Gagarin",
+          "B": "Neil Armstrong",
+          "C": "Buzz Aldrin",
+          "D": "Alan Shepard"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Trail of Tears' is associated with the forced relocation of which Native American tribe?",
+        "options": {
+          "A": "Navajo",
+          "B": "Sioux",
+          "C": "Cherokee",
+          "D": "Apache"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The fall of Constantinople in 1453 marked the end of which empire?",
+        "options": {
+          "A": "Roman Empire",
+          "B": "Ottoman Empire",
+          "C": "Byzantine Empire",
+          "D": "Persian Empire"
+        },
+        "correctAnswer": "C"
+      }
+    ]
+  }
+,
+
+{
+    "questions": [
+      {
+        "question": "Who was known as the 'Father of Modern Physics'?",
+        "options": {
+          "A": "Isaac Newton",
+          "B": "Albert Einstein",
+          "C": "Galileo Galilei",
+          "D": "Nikola Tesla"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The Treaty of Westphalia in 1648 ended which conflict?",
+        "options": {
+          "A": "The Hundred Years' War",
+          "B": "The War of the Spanish Succession",
+          "C": "The Thirty Years' War",
+          "D": "The Napoleonic Wars"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Which ancient civilization is known for the construction of the Colosseum?",
+        "options": {
+          "A": "Ancient Greece",
+          "B": "Ancient Rome",
+          "C": "Ancient Egypt",
+          "D": "The Mayan Civilization"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Iron Curtain' was a term used to describe the division between which two areas?",
+        "options": {
+          "A": "North and South Korea",
+          "B": "East and West Germany",
+          "C": "NATO and Warsaw Pact countries",
+          "D": "The United States and the Soviet Union"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who was the first woman to win a Nobel Prize, in 1903?",
+        "options": {
+          "A": "Marie Curie",
+          "B": "Bertha von Suttner",
+          "C": "Dorothy Hodgkin",
+          "D": "Mother Teresa"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "The ancient city of Machu Picchu is located in which country?",
+        "options": {
+          "A": "Peru",
+          "B": "Brazil",
+          "C": "Mexico",
+          "D": "Colombia"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who was the leader of the Soviet Union during World War II?",
+        "options": {
+          "A": "Vladimir Lenin",
+          "B": "Joseph Stalin",
+          "C": "Nikita Khrushchev",
+          "D": "Leonid Brezhnev"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The Great Depression began in which year?",
+        "options": {
+          "A": "1929",
+          "B": "1939",
+          "C": "1945",
+          "D": "1955"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who wrote the influential political treatise 'The Prince' in the 16th century?",
+        "options": {
+          "A": "William Shakespeare",
+          "B": "Niccolò Machiavelli",
+          "C": "Thomas More",
+          "D": "Leonardo da Vinci"
+        },
+        "correctAnswer": "B"
+      }
+    ]
+  }
+    , 
+    {
+        "questions": [
+          {
+            "question": "The Battle of Saratoga was a turning point in which conflict?",
+            "options": {
+              "A": "The American Revolutionary War",
+              "B": "The French and Indian War",
+              "C": "The Civil War",
+              "D": "World War I"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "Who was the first Roman emperor to convert to Christianity?",
+            "options": {
+              "A": "Julius Caesar",
+              "B": "Augustus",
+              "C": "Nero",
+              "D": "Constantine the Great"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "The term 'Holocaust' refers to the genocide of which group of people during World War II?",
+            "options": {
+              "A": "Jews",
+              "B": "Armenians",
+              "C": "Rwandans",
+              "D": "Cambodians"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "Who was the first woman to rule China, coming to power in 690 AD?",
+            "options": {
+              "A": "Wu Zetian",
+              "B": "Cixi",
+              "C": "Jiang Qing",
+              "D": "Li Qingzhao"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "The Wright brothers are known for accomplishing what historic feat?",
+            "options": {
+              "A": "Inventing the telephone",
+              "B": "Discovering penicillin",
+              "C": "Conducting the first powered flight",
+              "D": "Developing the first automobile"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "The 'Edict of Milan' in 313 AD granted religious freedom to which group?",
+            "options": {
+              "A": "Christians",
+              "B": "Muslims",
+              "C": "Buddhists",
+              "D": "Jews"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "Who was the British Prime Minister at the start of World War II?",
+            "options": {
+              "A": "Winston Churchill",
+              "B": "Neville Chamberlain",
+              "C": "Clement Attlee",
+              "D": "Anthony Eden"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "The ancient city of Carthage was located in what is now which country?",
+            "options": {
+              "A": "Italy",
+              "B": "Greece",
+              "C": "Egypt",
+              "D": "Tunisia"
+            },
+            "correctAnswer": "D"
+          },
+          {
+            "question": "Who is known as the 'Father of History'?",
+            "options": {
+              "A": "Aristotle",
+              "B": "Herodotus",
+              "C": "Thucydides",
+              "D": "Plutarch"
+            },
+            "correctAnswer": "B"
+          }
+        ]
+      }, 
+      {
+        "questions": [
+          {
+            "question": "The 'Long March,' a significant event in Chinese history, took place in which decade?",
+            "options": {
+              "A": "1920s",
+              "B": "1930s",
+              "C": "1940s",
+              "D": "1950s"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "Who was the first female Prime Minister of India?",
+            "options": {
+              "A": "Indira Gandhi",
+              "B": "Pratibha Patil",
+              "C": "Sonia Gandhi",
+              "D": "Benazir Bhutto"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "The 'Iron Lady' was a nickname given to which political leader?",
+            "options": {
+              "A": "Margaret Thatcher",
+              "B": "Golda Meir",
+              "C": "Indira Gandhi",
+              "D": "Angela Merkel"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "The Battle of Stalingrad was a turning point in which war?",
+            "options": {
+              "A": "World War I",
+              "B": "World War II",
+              "C": "The Korean War",
+              "D": "The Vietnam War"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "Who was the famous African American abolitionist and women's rights activist in the 19th century?",
+            "options": {
+              "A": "Harriet Tubman",
+              "B": "Sojourner Truth",
+              "C": "Frederick Douglass",
+              "D": "Booker T. Washington"
+            },
+            "correctAnswer": "B"
+          },
+          {
+            "question": "The Treaty of Utrecht in 1713 helped end which war?",
+            "options": {
+              "A": "The War of Spanish Succession",
+              "B": "The Thirty Years' War",
+              "C": "The Hundred Years' War",
+              "D": "The Seven Years' War"
+            },
+            "correctAnswer": "A"
+          },
+          {
+            "question": "Who was known as the 'Mad Monk' in Russian history?",
+            "options": {
+              "A": "Ivan the Terrible",
+              "B": "Peter the Great",
+              "C": "Rasputin",
+              "D": "Lenin"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "The ancient Lighthouse of Alexandria was located in which country?",
+            "options": {
+              "A": "Italy",
+              "B": "Greece",
+              "C": "Egypt",
+              "D": "Turkey"
+            },
+            "correctAnswer": "C"
+          },
+          {
+            "question": "The 'Glorious Revolution' of 1688 established the power of Parliament over the monarchy in which country?",
+            "options": {
+              "A": "France",
+              "B": "Spain",
+              "C": "England",
+              "D": "Germany"
+            },
+            "correctAnswer": "C"
+          }
+        ]
+      }
+,
+{
+    "questions": [
+      {
+        "question": "Who was the Aztec emperor at the time of the Spanish conquest led by Hernán Cortés?",
+        "options": {
+          "A": "Moctezuma II",
+          "B": "Atahualpa",
+          "C": "Cuauhtémoc",
+          "D": "Tizoc"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "The 'Meiji Restoration' in Japan marked the beginning of the end of the rule by which class of society?",
+        "options": {
+          "A": "The Samurai",
+          "B": "The Shoguns",
+          "C": "The Emperors",
+          "D": "The Merchants"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Pax Romana' refers to a period of relative peace and stability across the Roman Empire lasting approximately how many years?",
+        "options": {
+          "A": "50 years",
+          "B": "100 years",
+          "C": "200 years",
+          "D": "300 years"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Trail of Tears' occurred during the presidency of which U.S. President?",
+        "options": {
+          "A": "George Washington",
+          "B": "Thomas Jefferson",
+          "C": "Andrew Jackson",
+          "D": "Abraham Lincoln"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The ancient Hanging Gardens are believed to have been located in which city?",
+        "options": {
+          "A": "Athens",
+          "B": "Rome",
+          "C": "Babylon",
+          "D": "Alexandria"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "Who was the Roman goddess of love and beauty?",
+        "options": {
+          "A": "Diana",
+          "B": "Minerva",
+          "C": "Venus",
+          "D": "Juno"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Domesday Book' was commissioned by which English monarch?",
+        "options": {
+          "A": "Edward the Confessor",
+          "B": "William the Conqueror",
+          "C": "Henry II",
+          "D": "Richard the Lionheart"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Storming of the Bastille' occurred on which date, marking the start of the French Revolution?",
+        "options": {
+          "A": "July 4, 1789",
+          "B": "July 14, 1789",
+          "C": "August 4, 1789",
+          "D": "August 14, 1789"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first emperor of the unified China in 221 BC?",
+        "options": {
+          "A": "Confucius",
+          "B": "Laozi",
+          "C": "Sun Tzu",
+          "D": "Qin Shi Huang"
+        },
+        "correctAnswer": "D"
+      }
+    ]
+  }
+,
+{
+    "questions": [
+      {
+        "question": "The 'Battle of the Bulge' was a major battle in which war?",
+        "options": {
+          "A": "World War I",
+          "B": "World War II",
+          "C": "The Korean War",
+          "D": "The Vietnam War"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the famous British admiral known for his victory at the Battle of Trafalgar?",
+        "options": {
+          "A": "Francis Drake",
+          "B": "John Hawkins",
+          "C": "Horatio Nelson",
+          "D": "James Cook"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Zimmermann Telegram' was a communication from Germany to which country, proposing a military alliance during World War I?",
+        "options": {
+          "A": "Mexico",
+          "B": "Japan",
+          "C": "Russia",
+          "D": "Spain"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who was the Greek philosopher known for his method of questioning and dialogue?",
+        "options": {
+          "A": "Plato",
+          "B": "Aristotle",
+          "C": "Socrates",
+          "D": "Pythagoras"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Boxer Rebellion' took place in which country?",
+        "options": {
+          "A": "India",
+          "B": "China",
+          "C": "Japan",
+          "D": "Korea"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first Prime Minister of Israel?",
+        "options": {
+          "A": "Golda Meir",
+          "B": "Yitzhak Rabin",
+          "C": "David Ben-Gurion",
+          "D": "Menachem Begin"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Battle of Agincourt' in 1415 was a significant English victory in which conflict?",
+        "options": {
+          "A": "The Hundred Years' War",
+          "B": "The Wars of the Roses",
+          "C": "The War of Spanish Succession",
+          "D": "The Napoleonic Wars"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "The 'Mississippi Bubble' is associated with which economic phenomenon?",
+        "options": {
+          "A": "Inflation",
+          "B": "Deflation",
+          "C": "Stock market crash",
+          "D": "Speculative bubble"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "question": "Who was the first female pharaoh of ancient Egypt?",
+        "options": {
+          "A": "Cleopatra",
+          "B": "Nefertiti",
+          "C": "Hatshepsut",
+          "D": "Sobekneferu"
+        },
+        "correctAnswer": "C"
+      }
+    ]
+  }  , 
+  {
+    "questions": [
+      {
+        "question": "The 'Treaty of Nanking' in 1842 ended which conflict?",
+        "options": {
+          "A": "The Opium War",
+          "B": "The Boxer Rebellion",
+          "C": "The Taiping Rebellion",
+          "D": "The Sino-Japanese War"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "Who is credited with inventing the printing press in the 15th century?",
+        "options": {
+          "A": "Leonardo da Vinci",
+          "B": "Johannes Gutenberg",
+          "C": "Galileo Galilei",
+          "D": "Isaac Newton"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Spanish Inquisition' was established in which year?",
+        "options": {
+          "A": "1478",
+          "B": "1492",
+          "C": "1517",
+          "D": "1555"
+        },
+        "correctAnswer": "A"
+      },
+      {
+        "question": "The 'Magna Carta' was signed by which English monarch?",
+        "options": {
+          "A": "Henry VIII",
+          "B": "Edward I",
+          "C": "John",
+          "D": "Richard the Lionheart"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The 'Lewis and Clark Expedition' took place in the early 19th century to explore which territory?",
+        "options": {
+          "A": "The American Southwest",
+          "B": "The Louisiana Purchase",
+          "C": "Alaska",
+          "D": "The Oregon Trail"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "Who was the first African American to serve as the U.S. Secretary of State?",
+        "options": {
+          "A": "Condoleezza Rice",
+          "B": "Colin Powell",
+          "C": "Loretta Lynch",
+          "D": "Eric Holder"
+        },
+        "correctAnswer": "B"
+      },
+      {
+        "question": "The 'Siege of Leningrad' during World War II lasted approximately how long?",
+        "options": {
+          "A": "6 months",
+          "B": "1 year",
+          "C": "2 years",
+          "D": "900 days"
+        },
+        "correctAnswer": "D"
+      },
+      {
+        "question": "The 'Russo-Japanese War' was fought over territorial disputes in which region?",
+        "options": {
+          "A": "Central Asia",
+          "B": "The Balkans",
+          "C": "Manchuria and Korea",
+          "D": "Eastern Europe"
+        },
+        "correctAnswer": "C"
+      },
+      {
+        "question": "The ancient 'Silk Road' connected China with which other region?",
+        "options": {
+          "A": "Sub-Saharan Africa",
+          "B": "The Mediterranean",
+          "C": "Scandinavia",
+          "D": "The Americas"
+        },
+        "correctAnswer": "B"
+      }
+    ]
+  }
+  
+    ]
+  }  

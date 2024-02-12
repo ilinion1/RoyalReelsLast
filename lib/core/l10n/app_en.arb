@@ -1,0 +1,10 @@
+
+{
+    "title": "Gods app",
+    "loading":"LOADING",
+    "heroName":"Hero name",
+    "continuee":"Continue", 
+    "startGame":"Start game", 
+    "writeUrName": "Write your hero name!",
+    "nameUrHero" : "NAME YOUR HERO" 
+}
