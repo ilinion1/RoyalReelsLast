@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Preloader.png",
+      "filename" : "background.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Preloader@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Preloader@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

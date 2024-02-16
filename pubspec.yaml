@@ -1,7 +1,7 @@
 name: royal_reels
 description: "A new Flutter project."
 publish_to: "none"
-version: 5.0.0
+version: 6.0.0
 
 environment:
   sdk: ">=3.2.0 <4.0.0"
@@ -33,6 +33,16 @@ dependencies:
   rate_my_app: ^2.0.0
   carousel_slider: ^4.2.1
   image_picker: ^1.0.7
+
+  xml: ^6.5.0
+  dio: ^5.4.0
+  webview_flutter: ^4.7.0
+  flutter_native_splash: ^2.3.11
+
+flutter_native_splash:
+  ios: true
+  color: "#1A1B20"
+  image: "assets/images/royal_logo.png"
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:royal_reels/app/app.dart';
@@ -9,6 +8,7 @@ import 'package:royal_reels/core/extensions/helper_extensions.dart';
 
 Future<void> main() async {
   configureDependencies(getIt);
+
   await runZonedGuarded(
     () async {
       WidgetsFlutterBinding.ensureInitialized();

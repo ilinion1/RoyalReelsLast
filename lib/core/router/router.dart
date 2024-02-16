@@ -1,10 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:go_router/go_router.dart';
-import 'package:royal_reels/app/app.dart';
 import 'package:royal_reels/app/test_screen.dart';
 import 'package:royal_reels/core/extensions/parser_extensions.dart';
-import 'package:royal_reels/core/setting/select_screen.dart';
 import 'package:royal_reels/core/setting/splash_screen.dart';
+import 'package:royal_reels/core/setting/support_screen.dart';
 import 'package:royal_reels/royal_reels_features/quiz/view/royal_reels_finally_screen.dart';
 import 'package:royal_reels/royal_reels_features/quiz/view/royal_reels_quiz_screen.dart';
 import 'package:royal_reels/royal_reels_features/royal_reels_atack_teaching/royal_reels_atach_teaching_screen.dart';
@@ -32,13 +31,21 @@ final GlobalKey<NavigatorState> _rootNavigatorKey =
     GlobalKey<NavigatorState>(debugLabel: 'root');
 
 final GoRouter appRouter = GoRouter(
-  initialLocation: AppRoutes.splashScreen,
+  initialLocation: '/support',
   navigatorKey: _rootNavigatorKey,
   routes: [
     GoRoute(
       path: AppRoutes.splashScreen,
       builder: (context, state) {
         return TestScreen.show ? const TestScreen() : const SplashScreen();
+      },
+    ),
+    GoRoute(
+      parentNavigatorKey: _rootNavigatorKey,
+      path: '/support',
+      name: 'support',
+      builder: (context, state) {
+        return const SupportScreen();
       },
     ),
     royalReelsPageRoute(
@@ -49,7 +56,6 @@ final GoRouter appRouter = GoRouter(
         path: AppRoutes.settings, child: const RoyalReelsSettings()),
     royalReelsPageRoute(
         path: AppRoutes.teaching, child: const RoyalReelsAttackTeaching()),
-    royalReelsPageRoute(path: '/select', child: const SelectScreen()),
     GoRoute(
       parentNavigatorKey: _rootNavigatorKey,
       path: AppRoutes.quiz,
